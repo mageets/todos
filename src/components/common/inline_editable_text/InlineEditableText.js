@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class InlineEditableText extends Component {
+export default class InlineEditableText extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -44,4 +44,3 @@ class InlineEditableText extends Component {
         }
     }
 }
-export default InlineEditableText 

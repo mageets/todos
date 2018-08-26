@@ -1,6 +1,6 @@
 import React from 'react'
 import { NEW, COMPLETE } from './common/constants/status';
-import InlineEditableText from './InlineEditableText';
+import InlineEditableText from './components/common/inline_editable_text/InlineEditableText';
 
 export default function ToDoList(
     { 
